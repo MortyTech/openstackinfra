@@ -28,7 +28,7 @@
                   "ip": "10.11.119.11",
                   "ip_allocation_mode": "MANUAL",
                   "is_primary": true,
-                  "name": "XAAS-VLAN119",
+                  "name": "-VLAN119",
                   "type": "org"
                 }
               ],
@@ -39,7 +39,7 @@
                   "bus_type": "paravirtual",
                   "iops": 0,
                   "size_in_mb": "15360",
-                  "storage_profile": "vCloud hStorage SSD Gold XAAS_new",
+                  "storage_profile": "vCloud hStorage SSD Gold _new",
                   "unit_number": 0
                 }
               ],
@@ -79,7 +79,7 @@
                   "ip": "10.11.119.12",
                   "ip_allocation_mode": "MANUAL",
                   "is_primary": true,
-                  "name": "XAAS-VLAN119",
+                  "name": "-VLAN119",
                   "type": "org"
                 }
               ],
@@ -90,7 +90,7 @@
                   "bus_type": "paravirtual",
                   "iops": 0,
                   "size_in_mb": "15360",
-                  "storage_profile": "vCloud hStorage SSD Gold XAAS_new",
+                  "storage_profile": "vCloud hStorage SSD Gold _new",
                   "unit_number": 0
                 }
               ],
@@ -130,7 +130,7 @@
                   "ip": "10.11.119.13",
                   "ip_allocation_mode": "MANUAL",
                   "is_primary": true,
-                  "name": "XAAS-VLAN119",
+                  "name": "-VLAN119",
                   "type": "org"
                 }
               ],
@@ -141,7 +141,7 @@
                   "bus_type": "paravirtual",
                   "iops": 0,
                   "size_in_mb": "15360",
-                  "storage_profile": "vCloud hStorage SSD Gold XAAS_new",
+                  "storage_profile": "vCloud hStorage SSD Gold _new",
                   "unit_number": 0
                 }
               ],
@@ -181,7 +181,7 @@
                   "ip": "10.11.119.21",
                   "ip_allocation_mode": "MANUAL",
                   "is_primary": true,
-                  "name": "XAAS-VLAN119",
+                  "name": "-VLAN119",
                   "type": "org"
                 }
               ],
@@ -192,7 +192,7 @@
                   "bus_type": "paravirtual",
                   "iops": 0,
                   "size_in_mb": "15360",
-                  "storage_profile": "vCloud hStorage SSD Gold XAAS_new",
+                  "storage_profile": "vCloud hStorage SSD Gold _new",
                   "unit_number": 0
                 }
               ],
@@ -232,7 +232,7 @@
                   "ip": "10.11.119.22",
                   "ip_allocation_mode": "MANUAL",
                   "is_primary": true,
-                  "name": "XAAS-VLAN119",
+                  "name": "-VLAN119",
                   "type": "org"
                 }
               ],
@@ -243,7 +243,7 @@
                   "bus_type": "paravirtual",
                   "iops": 0,
                   "size_in_mb": "15360",
-                  "storage_profile": "vCloud hStorage SSD Gold XAAS_new",
+                  "storage_profile": "vCloud hStorage SSD Gold _new",
                   "unit_number": 0
                 }
               ],
