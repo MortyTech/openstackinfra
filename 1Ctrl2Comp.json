@@ -1,0 +1,181 @@
+{
+  "resource": [
+    {
+      "vcd_vm": [
+        {
+          "control01": [
+            {
+              "accept_all_eulas": true,
+              "catalog_name": "OVA's_new",
+              "computer_name": "control01",
+              "cpu_cores": 2,
+              "cpu_hot_add_enabled": false,
+              "cpus": 4,
+              "expose_hardware_virtualization": false,
+              "guest_properties": [
+                {
+                  "hostname": "control01",
+                  "public-keys": "YOUR_PUBLIC_SSH_KEY"
+                }
+              ],
+              "memory": 10240,
+              "memory_hot_add_enabled": false,
+              "name": "control01",
+              "network": [
+                {
+                  "adapter_type": "VMXNET3",
+                  "connected": true,
+                  "ip": "10.11.119.11",
+                  "ip_allocation_mode": "MANUAL",
+                  "is_primary": true,
+                  "name": "VLAN119",
+                  "type": "org"
+                },
+                {
+                  "adapter_type": "E1000",
+                  "connected": true,
+                  "ip_allocation_mode": "DHCP",
+                  "is_primary": false,
+                  "name": "Public",
+                  "type": "org"
+                }
+              ],
+              "os_type": "ubuntu64Guest",
+              "override_template_disk": [
+                {
+                  "bus_number": 0,
+                  "bus_type": "paravirtual",
+                  "iops": 0,
+                  "size_in_mb": "15360",
+                  "storage_profile": "vCloud hStorage SSD Gold new",
+                  "unit_number": 0
+                }
+              ],
+              "power_on": true,
+              "prevent_update_power_off": true,
+              "template_name": "Ubuntu 20.04 Server (20220825)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "vcd_vm": [
+        {
+          "compute01": [
+            {
+              "accept_all_eulas": true,
+              "catalog_name": "OVA's_new",
+              "computer_name": "compute01",
+              "cpu_cores": 2,
+              "cpu_hot_add_enabled": false,
+              "cpus": 4,
+              "expose_hardware_virtualization": true,
+              "guest_properties": [
+                {
+                  "hostname": "compute01",
+                  "public-keys": "YOUR_PUBLIC_SSH_KEY"
+                }
+              ],
+              "memory": 8192,
+              "memory_hot_add_enabled": false,
+              "name": "compute01",
+              "network": [
+                {
+                  "adapter_type": "VMXNET3",
+                  "connected": true,
+                  "ip": "10.11.119.21",
+                  "ip_allocation_mode": "MANUAL",
+                  "is_primary": true,
+                  "name": "VLAN119",
+                  "type": "org"
+                },
+                {
+                  "adapter_type": "E1000",
+                  "connected": true,
+                  "ip_allocation_mode": "DHCP",
+                  "is_primary": false,
+                  "name": "Public",
+                  "type": "org"
+                }
+              ],
+              "os_type": "ubuntu64Guest",
+              "override_template_disk": [
+                {
+                  "bus_number": 0,
+                  "bus_type": "paravirtual",
+                  "iops": 0,
+                  "size_in_mb": "15360",
+                  "storage_profile": "vCloud hStorage SSD Gold new",
+                  "unit_number": 0
+                }
+              ],
+              "power_on": false,
+              "prevent_update_power_off": true,
+              "template_name": "Ubuntu 20.04 Server (20220825)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "vcd_vm": [
+        {
+          "compute02": [
+            {
+              "accept_all_eulas": true,
+              "catalog_name": "OVA's_new",
+              "computer_name": "compute02",
+              "cpu_cores": 2,
+              "cpu_hot_add_enabled": false,
+              "cpus": 4,
+              "expose_hardware_virtualization": true,
+              "guest_properties": [
+                {
+                  "hostname": "compute02",
+                  "public-keys": "YOUR_PUBLIC_SSH_KEY"
+                }
+              ],
+              "memory": 8192,
+              "memory_hot_add_enabled": false,
+              "name": "compute02",
+              "network": [
+                {
+                  "adapter_type": "VMXNET3",
+                  "connected": true,
+                  "ip": "10.11.119.22",
+                  "ip_allocation_mode": "MANUAL",
+                  "is_primary": true,
+                  "name": "VLAN119",
+                  "type": "org"
+                },
+                {
+                  "adapter_type": "E1000",
+                  "connected": true,
+                  "ip_allocation_mode": "DHCP",
+                  "is_primary": false,
+                  "name": "Public",
+                  "type": "org"
+                }
+              ],
+              "os_type": "ubuntu64Guest",
+              "override_template_disk": [
+                {
+                  "bus_number": 0,
+                  "bus_type": "paravirtual",
+                  "iops": 0,
+                  "size_in_mb": "15360",
+                  "storage_profile": "vCloud hStorage SSD Gold new",
+                  "unit_number": 0
+                }
+              ],
+              "power_on": false,
+              "prevent_update_power_off": true,
+              "template_name": "Ubuntu 20.04 Server (20220825)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
